@@ -29,11 +29,46 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script>
+      window.META_PIXEL_ID = "2418057512032765";
+
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = true;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = true;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+
+      if (window.META_PIXEL_ID && window.META_PIXEL_ID !== "2418057512032765") {
+        fbq("init", window.META_PIXEL_ID);
+        fbq("track", "PageView");
+      }
+    </script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        alt=""
+        src="https://www.facebook.com/tr?id=2418057512032765&ev=PageView&noscript=1"
+      />
+    </noscript>
     <a
       class="floating-whatsapp"
+      data-track="contact whatsapp"
       href="https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital."
       target="_blank"
       rel="noreferrer"
@@ -64,6 +99,7 @@
           <a class="link-button" href="#como-funciona">Como funciona</a>
           <a
             class="button button--primary"
+            data-track="lead contact whatsapp"
             href="https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital."
             target="_blank"
             rel="noreferrer"
@@ -96,6 +132,7 @@
           <div class="hero__cta">
             <a
               class="button button--primary"
+              data-track="lead contact whatsapp"
               href="https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital."
               target="_blank"
               rel="noreferrer"
@@ -178,6 +215,7 @@
             <div class="hero-card__footer">
               <p>FISAM TECH atua onde a operação emperra e precisa funcionar.</p>
               <a
+                data-track="contact whatsapp"
                 href="https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital."
                 target="_blank"
                 rel="noreferrer"
@@ -389,6 +427,7 @@
             </div>
             <a
               class="button button--primary"
+              data-track="lead contact whatsapp"
               href="https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital."
               target="_blank"
               rel="noreferrer"
@@ -422,6 +461,7 @@
               <strong>Comece pelo caminho mais direto.</strong>
               <a
                 class="button button--primary button--large"
+                data-track="lead contact whatsapp"
                 href="https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20pedir%20um%20diagnóstico%20inicial%20da%20opera%C3%A7%C3%A3o%20FNRH."
                 target="_blank"
                 rel="noreferrer"
@@ -528,6 +568,7 @@
             </p>
             <a
               class="button button--primary button--large"
+              data-track="lead contact whatsapp"
               href="https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital."
               target="_blank"
               rel="noreferrer"
@@ -630,6 +671,7 @@
         </div>
         <a
           class="button button--ghost"
+          data-track="lead contact whatsapp"
           href="https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital."
           target="_blank"
           rel="noreferrer"
@@ -639,6 +681,7 @@
       </div>
     </footer>
 
+    <script src="tracking.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
