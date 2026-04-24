@@ -174,8 +174,8 @@ svg {
 }
 
 .button--ghost:hover {
-  border-color: rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(23, 48, 75, 0.14);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .button--large {
@@ -442,7 +442,8 @@ svg {
 
 .pain-card,
 .service-card,
-.mini-card {
+.mini-card,
+.process-card {
   position: relative;
   overflow: hidden;
 }
@@ -450,6 +451,7 @@ svg {
 .pain-card::after,
 .service-card::after,
 .mini-card::after,
+.process-card::after,
 .portrait-frame::after {
   content: "";
   position: absolute;
@@ -496,10 +498,101 @@ svg {
   color: var(--accent);
 }
 
+.process-grid {
+  align-items: stretch;
+}
+
+.process-card {
+  min-height: 100%;
+}
+
+.process-card__step {
+  display: inline-grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 1.2rem;
+  border-radius: 18px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  color: var(--accent);
+  background: linear-gradient(135deg, rgba(39, 201, 165, 0.16), rgba(47, 128, 255, 0.16));
+}
+
 .cta-strip {
   margin-top: 1.5rem;
   padding: 1.4rem 1.5rem;
   border-radius: var(--radius);
+}
+
+.diagnostic-offer {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 1.4rem;
+  padding: 1.8rem;
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at top right, rgba(47, 128, 255, 0.12), transparent 24%),
+    radial-gradient(circle at bottom left, rgba(39, 201, 165, 0.12), transparent 26%),
+    rgba(255, 255, 255, 0.86);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.diagnostic-offer__copy h2 {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.9rem, 3.2vw, 3rem);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+}
+
+.diagnostic-offer__copy p,
+.diagnostic-offer__action p,
+.offer-points li {
+  color: var(--muted);
+}
+
+.diagnostic-offer__action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.6rem;
+  border: 1px solid rgba(23, 48, 75, 0.08);
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(226, 246, 243, 0.88));
+}
+
+.diagnostic-offer__action strong {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.offer-points {
+  display: grid;
+  gap: 0.85rem;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  list-style: none;
+}
+
+.offer-points li {
+  position: relative;
+  padding-left: 1.4rem;
+}
+
+.offer-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--brand));
 }
 
 .founder__visual {
@@ -665,6 +758,7 @@ svg {
   .hero__content,
   .split,
   .founder,
+  .diagnostic-offer,
   .grid--4 {
     grid-template-columns: 1fr;
   }
@@ -704,6 +798,10 @@ svg {
     min-height: auto;
   }
 
+  .section {
+    padding: 4.5rem 0;
+  }
+
   .hero__content {
     padding-top: 2rem;
   }
@@ -726,9 +824,17 @@ svg {
     min-height: 320px;
   }
 
+  .diagnostic-offer,
+  .diagnostic-offer__action,
+  .final-cta,
+  .faq {
+    padding: 1.4rem;
+  }
+
   .floating-whatsapp {
     right: 0.75rem;
     bottom: 0.75rem;
+    padding-right: 0.85rem;
   }
 }
 

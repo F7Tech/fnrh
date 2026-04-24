@@ -1,35 +1,52 @@
-Crie uma landing page moderna, elegante, chamativa e altamente persuasiva para divulgar os serviços da **FISAM TECH**, focada em conversão para **WhatsApp**.
+Crie uma landing page moderna, elegante, persuasiva e focada em conversão para divulgar os serviços da **FISAM TECH**, com principal objetivo de gerar contatos imediatos via **WhatsApp**.
+
+## Papel esperado
+
+Atue como um profissional de:
+
+* front-end
+* conversão
+* posicionamento comercial
+* UX para serviços B2B
+
+Não entregue apenas um layout bonito. Entregue uma página que aumente confiança, deixe a proposta clara e leve o visitante a clicar no WhatsApp.
 
 ## Objetivo da página
 
-Gerar leads e contatos imediatos de:
+Gerar leads qualificados de:
 
 * hotéis
 * pousadas
 * hostels
 * meios de hospedagem
 * PMSs regionais
-* empresas que precisam de ajuda com **FNRH Digital**, implantação operacional, integração com sistemas e suporte técnico rápido.
+* empresas que precisam de ajuda com **FNRH Digital**, implantação operacional, integração com sistemas e suporte técnico rápido
 
-A página deve vender autoridade, execução rápida, confiança, urgência e solução real de problema.
+A página deve transmitir:
+
+* autoridade
+* execução rápida
+* confiança
+* urgência controlada
+* clareza comercial
+* solução real de problema operacional
 
 ## Tecnologias obrigatórias
 
 * HTML
 * CSS
 * JavaScript puro
-* Não usar frameworks
-* Código limpo, organizado e profissional
-* Responsivo para desktop e mobile
-* Visual premium, com animações suaves e boa hierarquia visual
-* Performance boa
+* não usar frameworks
+* código limpo, organizado e profissional
+* layout responsivo para desktop e mobile
+* visual premium com animações suaves
+* boa performance
 * SEO básico on-page
-* Botões com hover elegante
-* Rolagem suave
-* FAQ com acordeão em JS
+* botões com hover elegante
+* rolagem suave
+* FAQ com acordeão em JavaScript
 * CTA flutuante de WhatsApp
-* Máscara ou formatação visual para telefone se necessário
-* Estrutura pronta para tráfego pago
+* estrutura pronta para tráfego pago
 
 ## Identidade da marca
 
@@ -50,31 +67,32 @@ A comunicação deve transmitir:
 ## Sobre o fundador
 
 Nome: **Filipe**
+
 Descreva o Filipe como:
 
 * fundador da FISAM TECH
-* profissional que não fica só na teoria
+* alguém que não fica só na teoria
 * alguém que entende negócio, operação e tecnologia
 * alguém que põe a mão na massa de verdade
-* perfil executor, estratégico e técnico
+* alguém com perfil executor, estratégico e técnico
 * especialista em resolver problema real com rapidez
 * alguém que entra para organizar, integrar, ajustar fluxo e fazer funcionar
 
-Quero que isso fique muito bem vendido na landing page. Não usar linguagem genérica de “especialista apaixonado por tecnologia”. Quero algo forte, maduro e confiável.
+Evite linguagem genérica como “apaixonado por tecnologia” ou textos vagos de portfólio. O tom deve ser forte, maduro e confiável.
 
 ## Contato principal
 
 WhatsApp / contato: **11 97956-2271**
 
-Criar botões com CTA para WhatsApp usando mensagem automática.
-Link de WhatsApp:
-https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital.
+Use botões com CTA para WhatsApp usando a mensagem automática abaixo:
 
-## Estrutura da landing page
+`https://wa.me/5511979562271?text=Olá%2C%20vim%20pela%20landing%20page%20da%20FISAM%20TECH%20e%20quero%20entender%20como%20vocês%20podem%20me%20ajudar%20com%20FNRH%20Digital.`
+
+## Estrutura obrigatória da landing page
 
 ### 1. Hero section
 
-Criar uma primeira dobra muito forte, com:
+Criar uma primeira dobra forte com:
 
 * headline impactante
 * subtítulo claro
@@ -90,15 +108,15 @@ Sugestão de headline:
 Sugestão de subtítulo:
 **A FISAM TECH ajuda hotéis, pousadas e meios de hospedagem a organizar a operação da FNRH Digital, reduzir retrabalho, destravar a recepção e integrar sistemas com agilidade.**
 
-Adicionar microcopy de confiança:
+Adicionar microcopies de confiança:
 
 * Atendimento direto com especialista
 * Solução prática, sem enrolação
 * Foco em operação funcionando de verdade
 
-### 2. Sessão de dores do cliente
+### 2. Seção de dores do cliente
 
-Mostrar os principais problemas que o público vive:
+Mostrar os principais problemas do público:
 
 * recepção perdida no check-in
 * fluxo improvisado
@@ -110,9 +128,9 @@ Mostrar os principais problemas que o público vive:
 * equipe sem treinamento
 * operação travada
 
-Criar cards elegantes com ícones.
+Criar cards elegantes com ícones simples.
 
-### 3. Sessão “como a FISAM TECH resolve”
+### 3. Seção “Como a FISAM TECH resolve”
 
 Explicar de forma visual e objetiva:
 
@@ -121,45 +139,40 @@ Explicar de forma visual e objetiva:
 * organização do fluxo de check-in
 * suporte de crise
 * treinamento da equipe
-* integração técnica com sistemas/PMS
+* integração técnica com sistemas e PMS
 * automações e ajustes operacionais
 
-### 4. Sessão de serviços
+### 4. Seção de serviços
 
 Criar cards premium para pelo menos estes serviços:
 
 #### Implantação Expressa da FNRH Digital
 
-Texto sugerido:
 Estruturação rápida da operação para meios de hospedagem que precisam colocar a FNRH Digital para funcionar com clareza, segurança e rotina organizada.
 
 #### Suporte de Crise Operacional
 
-Texto sugerido:
 Atuação rápida para corrigir gargalos, estabilizar a operação, reduzir erro e destravar o atendimento quando o processo já começou torto.
 
 #### Integração com PMS e Sistemas
 
-Texto sugerido:
 Análise técnica, desenho de fluxo, integração e apoio operacional para empresas que precisam conectar tecnologia com execução real.
 
 #### Treinamento e Padronização da Equipe
 
-Texto sugerido:
 Treinamento prático para recepção e operação, com foco em agilidade, clareza de processo e menos retrabalho.
 
-### 5. Sessão sobre Filipe
+### 5. Seção sobre Filipe
 
 Criar uma seção forte com título como:
 **Quem está à frente da FISAM TECH**
 
-Texto com tom premium e confiável.
-Base para copy:
-**Filipe é o fundador da FISAM TECH e atua de forma direta na operação, no diagnóstico e na execução das soluções. Não é um perfil distante que vende e desaparece. É alguém que entende negócio, tecnologia e rotina operacional, coloca a mão na massa e entra para resolver. Seu foco é transformar processos confusos em operação clara, funcional e tecnicamente bem estruturada.**
+Base de copy:
+**Filipe é o fundador da FISAM TECH e atua de forma direta no diagnóstico, na operação e na execução das soluções. Não é um perfil distante que vende e desaparece. É alguém que entende negócio, tecnologia e rotina operacional, coloca a mão na massa e entra para resolver. Seu foco é transformar processos confusos em operação clara, funcional e tecnicamente bem estruturada.**
 
-Criar visual com bloco de destaque e, se possível, espaço preparado para futura foto.
+O visual deve incluir um bloco de destaque e um espaço preparado para futura foto.
 
-### 6. Sessão de diferenciais
+### 6. Seção de diferenciais
 
 Mostrar diferenciais como:
 
@@ -172,7 +185,7 @@ Mostrar diferenciais como:
 * implantação com lógica de negócio
 * suporte próximo
 
-### 7. Sessão “para quem é”
+### 7. Seção “Para quem é”
 
 Criar blocos para:
 
@@ -184,13 +197,15 @@ Criar blocos para:
 * empresas com PMS
 * software houses do setor
 
-### 8. Sessão de CTA forte
+### 8. Seção de CTA forte
 
 Headline:
 **Precisa colocar a operação para funcionar sem perder tempo?**
+
 Subheadline:
 **Fale direto com a FISAM TECH e entenda o caminho mais rápido para organizar sua operação.**
-Botão grande de WhatsApp.
+
+Incluir botão grande de WhatsApp.
 
 ### 9. FAQ
 
@@ -216,7 +231,8 @@ Inserir:
 ## Estilo visual
 
 Quero um design premium, elegante e chamativo.
-Referência de sensação:
+
+Sensação desejada:
 
 * tecnologia de alto valor
 * consultoria moderna
@@ -233,21 +249,39 @@ Referência de sensação:
 * cards com leve profundidade
 * animações sutis de entrada ao rolar
 * visual limpo e refinado
-* aparência que combine com tráfego pago e lead de ticket mais alto
+* aparência compatível com tráfego pago e lead de ticket mais alto
 
 ## Conversão
 
-Quero foco total em conversão.
-Adicionar:
+Quero foco total em conversão. Adicione:
 
 * CTA no hero
-* CTA no meio
+* CTA no meio da página
 * CTA no final
 * botão flutuante do WhatsApp
 * chamadas claras para ação
 * microcopies de confiança
 * linguagem direta
-* nada de textos longos demais e cansativos
+* textos objetivos, sem blocos cansativos
+
+## Requisitos técnicos extras
+
+* estrutura sem erros
+* código organizado e fácil de editar depois
+* comentários curtos apenas quando realmente ajudarem
+* inserir conteúdo real já pronto, sem lorem ipsum
+* garantir visual profissional mesmo sem imagens externas
+* pode usar ícones simples via SVG inline ou solução leve
+* incluir meta tags básicas de SEO
+* incluir título e descrição da página
+
+## SEO sugerido
+
+Título:
+**FISAM TECH | Implantação e Suporte para FNRH Digital**
+
+Meta description:
+**A FISAM TECH ajuda hotéis, pousadas e meios de hospedagem com implantação, suporte e integração para FNRH Digital, com atendimento direto, rapidez e foco operacional.**
 
 ## Entregáveis
 
@@ -257,24 +291,10 @@ Gerar:
 2. `style.css`
 3. `script.js`
 
-## Requisitos extras
+## Formato da resposta
 
-* Estrutura sem erros
-* Código bem comentado
-* Fácil de editar depois
-* Todas as seções bem acabadas
-* Inserir conteúdo real já pronto, não deixar lorem ipsum
-* Garantir visual profissional mesmo sem imagens externas
-* Pode usar ícones simples via SVG inline ou solução leve
-* Incluir meta tags básicas de SEO
-* Incluir título e descrição da página
+No final:
 
-## Título SEO sugerido
-
-FISAM TECH | Implantação e Suporte para FNRH Digital
-
-## Meta description sugerida
-
-A FISAM TECH ajuda hotéis, pousadas e meios de hospedagem com implantação, suporte e integração para FNRH Digital, com atendimento direto, rapidez e foco operacional.
-
-No final, entregue o código completo dos 3 arquivos separadamente.
+1. entregue o código completo dos 3 arquivos separadamente
+2. explique em poucas linhas a lógica de conversão usada
+3. aponte qualquer decisão visual ou comercial relevante
